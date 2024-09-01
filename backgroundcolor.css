@@ -1,0 +1,15 @@
+body {
+  /* background-color: antiquewhite;
+  /* background-image: url("image.jpg"); */
+  background: size 34px;
+  /* background-attachment: fixed; */
+  background: url("image.jpg") no-repeat fixed left;
+}
+.one {
+  color: white;
+  /* background-color: blueviolet; */
+}
+.two {
+  color: white;
+  /* background-color: coral; */
+}

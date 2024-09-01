@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.a {
+  color: red;
+  background-color: aliceblue;
+  text-align: center;
+  text-decoration: underline dotted red;
+  font-family: monospace, Georgia, "Times New Roman", Times, serif;
+}
+.b {
+  color: blue;
+  text-align: left;
+  font-size: 20px;
+  font-variant: inherit;
+  font-weight: bold;
+  font-family: "Fasthand", cursive;
+  /* this is online font firstly we search on google and then copy the link and paste in the html file and then copy the font family and paste in css file  */
+  text-decoration: yellow wavy underline 2px;
+}

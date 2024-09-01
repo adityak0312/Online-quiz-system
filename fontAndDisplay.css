@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.a {
+  display: inline-block;
+  margin-right: 20px;
+  font: 50px;
+  /* display: none;it is used to hide the element from DOM */
+  visibility: hidden;
+  /* it is used to remove the element from the place but its place is left */
+  width: 400px;
+  height: 100px;
+  background-color: red;
+}
+.b {
+  margin-top: 0;
+  margin-right: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 58px;
+  background-color: blue;
+}

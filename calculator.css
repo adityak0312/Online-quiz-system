@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(58, 59, 59);
+    text-align: center;
+}
+
+.display{
+    width: 300px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(52, 52, 50);
+}
+h1{
+    color: white;
+}
+button{
+    padding: 18px;
+
+    background-color: rgb(86, 86, 68);
+ 
+
+}       
+fieldset{
+    width: 50%;
+    margin-left: 25%;
+}
+.button{
+    padding: 2px;
+  
+}
+.buttons{
+    width: 70px;
+    color: aliceblue;
+    border-right: 10px;
+    border-bottom:10px;
+    border-style: solid;
+    border-color:red;
+    border-radius: 50px;
+}
+
+.operator{
+    width: 70px;
+    border-right: 10px;
+    border-bottom:10px;
+    border-style: solid;
+    border-color:red;
+    border-radius: 50px;
+    background-color: rgb(43, 45, 45);
+    color: aliceblue;
+}

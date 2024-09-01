@@ -1,0 +1,58 @@
+body {
+background-color:rgb(53, 53, 53);
+color: white;
+}
+/* p{
+    color:black;
+    background-color: white;
+} */
+div{    
+    color:white;
+    font-size: 100px;
+    text-align: center;
+}
+nav{
+    text-align: right;
+    padding: 24px;
+}
+.a{
+    color:white;
+    padding-right: 20px;
+}
+/* (.) is issued for object  */
+.b{
+    color:white;
+    padding-right: 20px;
+}
+.c{
+    color:red;
+    padding-right: 20px;
+}
+.d{
+    color:blue;
+    padding-right: 20px;
+}
+/* table{
+    background-color: black;
+    border: px;
+    border-color: brown;
+    padding:1px;
+    border-spacing: 1px;
+    
+    
+} */
+/* thead{
+    background-color: aliceblue;
+    color:black;
+}
+tr{
+    color:black;
+    background-color: aliceblue;
+} */
+input{
+    width: 561px;
+    height: 41px;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 20px;
+}

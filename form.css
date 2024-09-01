@@ -1,0 +1,61 @@
+body {
+    border: 2px;
+    border-color: black;
+    background-color: white;
+}
+
+.a {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    color: maroon;
+}
+
+legend {
+    text-align: left;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+input {
+
+    height: 20px;
+    border-radius: 0px;
+    font-size: 15px;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+}
+
+.b {
+    text-align: center;
+    padding: 0px;
+}
+
+.d {
+
+    font-size: 20px;
+    color: brown;
+}
+marquee{
+    font-size: 50px;
+    color:chocolate;
+    font-size: 20px;
+    font-variant:inheritz;
+    font-weight: bold;
+    font-family: "Fasthand", cursive;
+
+}
+
+video {
+    width: 200px;
+}

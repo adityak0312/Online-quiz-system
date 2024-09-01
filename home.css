@@ -1,0 +1,16 @@
+body{
+    background:gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+    
+    
+.carousel-inner{
+    width: 90%;
+    margin: 5%;
+}
+nav{
+    background:red;
+}

@@ -1,0 +1,284 @@
+html{
+    scroll-behavior:smooth;
+    
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    color: red;
+    position: sticky;
+top:0;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:white;
+    }
+ 
+
+
+.logo{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 67px;
+    color: black;
+    border:red solid;
+    border-radius: 40px;
+    padding: 2px;
+    /* border-width: 2px; */
+}
+.logo:hover{
+    font-size:60px ;
+    transition-duration: 1s;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    display:inline-block;
+    font-size: 30px;
+    line-height: 16px;
+    padding: 10px;
+    margin-right: 25px;
+    border-color: black ;
+    border-style:solid;
+    /* border-top:2px; */
+    border-left: 30px;
+    border-radius: 40px;
+    
+}
+
+nav ul li a:hover{
+    color:black;
+    background-color:red;
+}
+nav::before{
+    content:" ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    left: 0%;
+    background-color:grey;
+    z-index: -1;
+    
+}
+
+
+#home p{
+    color: white;
+    font-style: italic;
+    margin-left: 140px;
+    margin-top: -40px;
+    width:25%;
+
+}
+#home h1{
+    font-size: 120px;
+    padding-left: 195px;
+    padding-top: 33px;
+    color: rgb(113, 157, 188);
+
+}
+#home h1:hover{
+    transition-duration: 1s;
+    font-size: 130px;
+}
+
+
+#home::before{
+    content:" ";
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top:0px;
+    left: 0%;
+    background:url(images.jpeg) no-repeat center center/cover;
+    /* background-color: blue; */
+    z-index: -1;
+    
+    
+}
+
+.maths{
+    display: inline-block;
+    border:red;
+    border-radius: 6%;
+    text-align: center;
+    border-width: 2px;
+    width: 32.5%;
+    margin-left: 5px;
+    color: red;
+    margin-top: 30px;
+    
+    font-size: 25px;
+    background-color:white;
+    text-decoration: none;
+    /* height: 400px; */
+}
+.maths:hover{
+    font-size:40px ;
+    transition-duration: 1s;
+    
+    
+
+}
+#aisehi2{
+    margin-top: 3%;
+}
+#quiz h1{
+    margin-top:120px ;
+    color:rgb(192, 134, 60);
+    font-size:20px;
+    text-align: center;
+    justify-content: center;
+    /* height:1100px; */
+}
+#quiz p{
+    padding: 50px;
+}
+
+.maths img{
+    width: 100%;
+    
+    border-radius: 20px;
+}
+.content{
+    background-color: darkgrey; 
+    margin-top: 50px;
+    height:800px;
+    justify-content: center;
+    align-items: center;
+    
+}
+section p{
+    color:black
+}
+#about h1{
+    padding: 5%;
+    size: 150px;
+    text-align: center;
+    color:white;
+
+}
+#one{
+    font-size: 20px;
+    border-bottom: 25px solid ;
+    border-left: 25px solid ;
+    border-radius: 100px;
+    text-align: left;
+    width: 27%;
+    margin-left: 8%;
+    color:antiquewhite;
+    padding: 50px;
+}
+#about{
+    background-color:rgb(35, 50, 60) ;
+
+}
+#two{
+    margin-left: 45%;
+    width:25%;
+    border-bottom: 25px solid ;
+    border-left: 25px solid ;
+    border-radius: 100px;
+    text-align: center;
+    color: antiquewhite;
+    padding-bottom:30px;
+
+}
+#about p{
+    display:inline-block ;
+}
+.upper{
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+
+}
+.middle{
+    display: flex;
+    /* background-color: black; */
+}
+.lower{
+    display: flex;
+    /* background-color: black; */
+}
+#lgin{
+    /* margin:100px; */
+    width:100px;
+    height: 100px;
+}
+.change{
+    
+    background-color: aqua;
+    
+    
+}
+.tochange{
+    width:100px;
+    height: 100px;
+    /* background-color: red; */
+}
+#login{
+    background-color: rgb(23, 23, 23);
+    
+     align-items: center;
+     justify-content: center;
+    padding-left: 40%;
+}
+#para:hover{
+transition-duration: 2sec;
+}
+#feedback1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 100px;
+  
+}
+#feedback1::before{
+    content: " ";
+    position: absolute;
+    margin-top: 100px;
+    height: 80%;
+    width: 100%;
+    background-color: aliceblue;
+    z-index: -1;
+}
+#title{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(192, 134, 60);
+    margin: 25px;
+}
+#name{
+    margin: 4px;
+}
+#Address{
+    margin: 4px;
+}
+
+#age1{
+    margin: 4px;
+}
+
+#age{
+    margin: 4px;
+}
+#contact{
+    margin:4px;
+}
+

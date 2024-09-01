@@ -1,0 +1,44 @@
+body {
+  background-color: oldlace;
+}
+.one {
+  color: white;
+  background-color: cornflowerblue;
+}
+.two {
+  color: white;
+  background-color: gray;
+}
+.three {
+  color: white;
+  background-color: rgb(0, 217, 255);
+}
+.four {
+  color: white;
+  background-color: blue;
+}
+span {
+  background-color: yellow;
+}
+caption {
+  color: blue;
+  background-color: aliceblue;
+}
+#first {
+  color: white;
+  background-color: blue;
+  border: 2px;
+}
+#second {
+  color: white;
+  background-color: red;
+  border: 2px;
+}
+#third {
+  color: white;
+  background-color: green;
+  border: 2px;
+}
+div {
+  background-color: rgb(red, green, blue);
+}

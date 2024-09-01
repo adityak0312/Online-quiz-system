@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: cornsilk;
+}
+box{
+  border-color: blue;
+  height: 100px;
+  padding: 20px;
+  margin: 10px 10px 10px 10px;
+  width: 100px;
+  background-color: chartreuse;
+}
+.c{
+  height: 20px;
+  background-color: cadetblue;
+  color:black;
+}
+.a {
+  background-color: aqua;
+  height: 200px;
+  font-size: 30px;
+  margin: 10px 30px 20px 50px;
+
+  /* margin:10px 30px; it means 10 is for up and down and 30 is for left and right. */
+  padding: 10px 30px 20px 50px;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: grey;
+  border-radius: 6px;
+}
+.b {
+  background-color: red;
+  padding: 30px 30px 20px 50px;
+  margin: 30px 30px 20px 50px;
+  font-size: 2px;
+  border-width: 6px;
+  width: 100%;
+  height: 2px;
+  border-style: ridge;
+  border-color: grey;
+  border-radius: 6px;
+}
